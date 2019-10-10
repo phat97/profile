@@ -1,0 +1,123 @@
+:root {
+  --bg-color: rgb(247, 249, 255);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.navigation {
+  background-color: rgb(0, 0, 0);
+  padding: 5px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation a {
+  text-align: center;
+  padding: 0 20px;
+  height: 30px;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: whitesmoke;
+}
+
+.profile {
+  display: grid;
+  background-color: var(--bg-color);
+  height: 700px;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  z-index: -2;
+}
+
+.profile::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 30;
+  left: 0;
+  background-image: url("../assets/images/network.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 700px;
+  opacity: 0.1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.profile-image {
+  grid-column-start: 6;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  width: 300px;
+  height: 300px;
+  border: rgb(34, 58, 124) 3px solid;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+  top: 150px;
+}
+
+.profile-info {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  column-gap: 10px;
+  row-gap: 10px;
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
+.profile-name {
+  font-size: 5em;
+  font-family: fantasy;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.profile .btn {
+  padding: 5px 30px 5px 10px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.profile .about {
+  grid-row-start: 2;
+  grid-row-end: 2;
+  width: 110px;
+  border: 2px solid rgb(98, 55, 255);
+  color: rgb(98, 114, 255);
+  background-color: rgb(252, 252, 252);
+  background-image: url(../assets/icons/arrow-blue.svg);
+  background-repeat: no-repeat;
+  background-position: 80px;
+  background-size: 9px;
+}
+
+.profile .resume {
+  grid-row-start: 2;
+  grid-row-end: 2;
+  width: 175px;
+  border: 2px solid rgb(98, 55, 255);
+  color: rgb(252, 252, 252);
+  background-color: rgb(117, 131, 255);
+  background-image: url(../assets/icons/arrow-white.svg);
+  background-repeat: no-repeat;
+  background-position: 145px;
+  background-size: 9px;
+}
