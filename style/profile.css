@@ -134,3 +134,82 @@ body {
   background-position: 145px;
   background-size: 9px;
 }
+
+.bio {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.bio-info {
+  width: 700px;
+  margin: 300px auto;
+}
+
+.bio-icon {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.3;
+}
+
+.coffee {
+  top: 30px;
+  left: 15%;
+  background-image: url(../assets/icons/coffee.svg);
+}
+
+.tea {
+  top: 150px;
+  right: 20%;
+  background-image: url(../assets/icons/tea.svg);
+}
+
+.book {
+  top: 500px;
+  left: 60%;
+  background-image: url(../assets/icons/book.svg);
+  opacity: 0.1;
+}
+
+.laptop {
+  top: 300px;
+  left: 5%;
+  background-image: url(../assets/icons/laptop.svg);
+  opacity: 0.1;
+}
+
+.skillset {
+  padding: 50px;
+  height: 600px;
+  background-color: rgb(245, 251, 255);
+}
+
+.skillset h1 {
+  text-align: center;
+}
+
+.skillset-grid {
+  background-color: red;
+  height: 500px;
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.html {
+  background-image: url(../assets/icons/html-logo.svg);
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.footer {
+  height: 200px;
+  width: 100%;
+  background-color: lightblue;
+}
