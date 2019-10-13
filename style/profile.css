@@ -8,6 +8,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 .container {
@@ -65,7 +66,7 @@ body {
   grid-row-end: 1;
   width: 350px;
   height: 350px;
-  border: rgb(34, 58, 124) 3px solid;
+  border: black 3px solid;
   border-radius: 50%;
   object-fit: cover;
   position: relative;
@@ -142,8 +143,8 @@ body {
 }
 
 .bio-info {
-  width: 700px;
-  margin: 300px auto;
+  width: 720px;
+  margin: 250px auto;
 }
 
 .bio-icon {
@@ -182,30 +183,37 @@ body {
 }
 
 .skillset {
-  padding: 50px;
-  height: 600px;
-  background-color: rgb(245, 251, 255);
+  padding-bottom: 100px;
+}
+
+.projects {
+  background-color: rgb(252, 250, 255);
+}
+
+.projects h1 {
+  text-align: center;
+  margin: 70px 0 50px;
 }
 
 .skillset h1 {
   text-align: center;
+  margin: 70px 0 50px;
 }
 
 .skillset-grid {
-  background-color: red;
-  height: 500px;
-  width: 70%;
+  height: 250px;
+  width: 800px;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  row-gap: 40px;
 }
 
-.html {
-  background-image: url(../assets/icons/html-logo.svg);
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 1;
+.skillset-grid div {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .footer {
