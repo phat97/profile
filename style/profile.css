@@ -182,6 +182,20 @@ body {
   opacity: 0.1;
 }
 
+.badminton {
+  top: 450px;
+  left: 25%;
+  background-image: url(../assets/icons/badminton.png);
+  opacity: 0.05;
+}
+
+.cooking {
+  top: 100px;
+  right: 35%;
+  background-image: url(../assets/icons/cooking.png);
+  opacity: 0.1;
+}
+
 .skillset {
   padding-bottom: 100px;
 }
