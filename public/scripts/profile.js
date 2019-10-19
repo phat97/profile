@@ -25,3 +25,8 @@ function displayAccordion() {
     });
   }
 }
+
+function autoScrollTo(el) {
+  let top = $("." + el).offset().top;
+  $("html, body").animate({ scrollTop: top }, 500);
+}

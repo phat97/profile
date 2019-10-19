@@ -1,0 +1,22 @@
+{
+  "name": "profile",
+  "version": "1.0.0",
+  "description": "Personal Profile",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phat97/profile.git"
+  },
+  "author": "Phat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phat97/profile/issues"
+  },
+  "homepage": "https://github.com/phat97/profile#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

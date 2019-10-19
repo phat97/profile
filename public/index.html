@@ -6,14 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Phat Le</title>
     <link rel="stylesheet" href="style/profile.css" />
-    <script src="script/profile.js"></script>
+    <script src="scripts/profile.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   </head>
   <body onload="loadScripts()">
     <div class="container">
       <div class="profile">
         <div class="profile-info">
           <span class="profile-name">Phat Le</span>
-          <input class="about btn" type="button" value="About Me" />
+          <input
+            class="about btn"
+            type="button"
+            value="About Me"
+            onclick="autoScrollTo('bio');"
+          />
           <input class="resume btn" type="button" value="Download Resume" />
         </div>
         <img class="profile-image" src="assets/me.jpg" alt="Profile Photo" />
@@ -44,7 +50,7 @@
       <div class="projects">
         <h1>Projects</h1>
         <div class="project-list">
-          <div class="accordion">TalkToVern Prototype</div>
+          <div class="accordion">TalkToVern Prototype (Web Application)</div>
           <div class="panel">
             <div class="project-detail"></div>
             <p>
@@ -54,7 +60,7 @@
               nisi ut aliquip ex ea commodo consequat.
             </p>
           </div>
-          <div class="accordion">Section 1</div>
+          <div class="accordion">Badge Book Media (Web Application)</div>
           <div class="panel">
             <div class="project-detail"></div>
             <p>
@@ -64,7 +70,29 @@
               nisi ut aliquip ex ea commodo consequat.
             </p>
           </div>
-          <div class="accordion">Section 1</div>
+          <div class="accordion">
+            Tsunami Solutions Billing Form (Web Application)
+          </div>
+          <div class="panel">
+            <div class="project-detail"></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+          <div class="accordion">Comm Audio (Desktop Application)</div>
+          <div class="panel">
+            <div class="project-detail"></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+          <div class="accordion">Boba Booze Frontpage (Under Construction)</div>
           <div class="panel">
             <div class="project-detail"></div>
             <p>
