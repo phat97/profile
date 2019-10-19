@@ -182,16 +182,16 @@ body {
 }
 
 .project-list {
-  width: 75%;
+  width: 60%;
+  min-width: 800px;
   margin: 0px auto 100px;
 }
 
 .accordion {
   background-color: white;
-  /* border: solid rgb(235, 235, 235) 3px; */
-  border-top: solid rgb(185, 185, 185);
-  border-left: solid rgb(185, 185, 185);
-  box-shadow: 2px 3px 5px rgb(185, 185, 185);
+  border-top: solid rgba(185, 185, 185, 0.5);
+  border-left: solid rgba(185, 185, 185, 0.5);
+  box-shadow: 2px 3px 3px rgb(185, 185, 185);
   cursor: pointer;
   padding: 18px 25px;
   text-align: left;
