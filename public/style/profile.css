@@ -167,7 +167,7 @@ body {
   top: 450px;
   left: 25%;
   background-image: url(../assets/icons/badminton.png);
-  opacity: 0.05;
+  opacity: 0.1;
 }
 
 .cooking {
@@ -181,10 +181,34 @@ body {
   background-color: rgb(252, 250, 255);
 }
 
+.projects h1 {
+  text-align: center;
+  margin: 70px 0 50px;
+}
+
 .project-list {
   width: 60%;
   min-width: 800px;
   margin: 0px auto 100px;
+}
+
+.project-list h4 {
+  padding: 0;
+  margin: 10px 0 3px;
+}
+
+.project-list p {
+  padding: 0;
+  margin: 0 0 15px;
+}
+
+.project-list img {
+  display: block;
+  margin: 30px auto;
+  height: auto;
+  width: 65%;
+  min-width: 600px;
+  border: 1px solid black;
 }
 
 .accordion {
@@ -221,17 +245,12 @@ body {
 
 .panel {
   margin: 14px 10px 20px;
-  padding: 0 18px;
+  padding: 0 20px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.25s ease-out;
   background-color: white;
   border-radius: 3px;
-}
-
-.projects h1 {
-  text-align: center;
-  margin: 70px 0 50px;
 }
 
 .skillset h1 {
