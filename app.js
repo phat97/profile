@@ -12,6 +12,6 @@ router.get("/", function(req, res) {
 });
 
 app.use("/", router);
-let listener = app.listen(process.env.port || port, () => {
+let listener = app.listen(process.env.PORT || port, () => {
   console.log(`Listening on port ${listener.address().port}`);
 });
